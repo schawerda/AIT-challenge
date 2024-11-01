@@ -1,0 +1,26 @@
+Title: separate waste efficently with deep learning
+
+Six years ago, the city of Grine-Vachine funded a waste treatment center with three machines. Machine 1 separates waste by general type, Machine 2 directs each waste item to one of six conveyor belts, and Machine 3 processes the waste based on its type. There are six belts in total, one for each waste type, and only correctly classified waste can be processed by Machine 3.
+
+Currently, some workers manually organise the waste between Machines 2 and 3. Due to new regulations and the COVID-19 crisis, these operators need to be reassigned to other tasks. To facilitate this, Machine 2's sorting algorithm needs improvement and automation, as it currently only directs waste randomly. 
+Machine 2 is technically capable of running a sorting algorithm, but none has been implemented so far. Therefore, the Grine-Vachine waste center seeks your help to develop and implement a basic computer vision (CV) algorithm that can classify waste efficiently using deep learning, thereby reducing manual intervention greatly.
+
+You have been provided with images from Machine 2 taken during 10 minutes of typical operation, which have already been manually classified by waste type. You can assume these images represent the usual distribution of waste.
+
+Task: Develop a deep learning CV algorithm to classify waste into different categories. Performance expectations on the test set for the sorting CV algorithm:
+   - 70% accuracy is satisfactory.
+   - 80% accuracy is considered good.
+   - 90% accuracy is very good.
+
+Requirements:
+1. Implementation time limit: Your solution should be developed within a maximum of 10 hours.
+2. Submission: Submit the code as a zipped folder or a github/gitlab repo along with a concise LaTeX report (maximum 3 pages). Do not spend time on writing a README file. The code needs to be executable (if minor inconvenience during the execution happen we will reach out to you, so do not worry. The important thing is that the results are reasonably replicable).
+3. Report Content (max 3 pages): your report should briefly summarize the following:
+   - Introduction: Outline your approach.
+   - Methodology: Describe the techniques you used and justify the rationale behind the division of the dataset in sub-datasets used in the ML processes.
+   - Results: Present key results and accuracy metrics.
+   - Conclusion: Provide concise insights from your work.
+
+Your task is to demonstrate proficiency in CV techniques and problem-solving abilities, as well as clarity in summarizing your work in a short report.
+
+You may ask questions on the topic, but responses are at our discretion.
